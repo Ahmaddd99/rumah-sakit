@@ -1,0 +1,255 @@
+body {
+    background-color: #d8e1ff;
+    width: 1350px;
+    height: 500px;
+    margin: 0px;
+  }
+  
+  body .textpuskesmas {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .back {
+    background-repeat: no-repeat;
+    background-image: url("../Project/imageInfo/kembali.png");
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 100px;
+    top: 50px;
+  }
+  
+  body .backtext {
+    position: absolute;
+    right: 35px;
+    top: 44px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .backtext a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  body .logopuskesmas {
+    background-image: url("../Project/imageInfo/logorumah.svg");
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  body .imageprofile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: calc(50% - 50rem/2);
+    top: 12rem;
+    background-image: url("../Project/imageInfo/profil.jpg");
+    width: 785px;
+    height: 1200px;
+  }
+  
+  body .container {
+    position: absolute;
+    width: 1350px;
+    height: 445px;
+    top: 150px;
+  }
+  
+  body .container .frame1 {
+    position: absolute;
+    width: 445px;
+    top: 50px;
+    left: 20px;
+    color: white;
+  }
+  
+  body .container .frame1 .logo1 {
+    background-image: url("../Project/imageInfo/locat.png");
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  
+  body .container .frame1 .textframe1 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body .container .frame1 .numberphone {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body .container .frame1 .address {
+    width: 400px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body .container .frame2 {
+    position: absolute;
+    width: 445px;
+    top: 50px;
+    left: 500px;
+    color: white;
+  }
+  
+  body .container .frame2 .logo2 {
+    background-image: url("../Project/imageInfo/layanan.png");
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  
+  body .container .frame2 .textframe2 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body .container .frame2 .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 12px 32px;
+    position: absolute;
+    width: 182px;
+    height: 52px;
+    top: 150px;
+    border: 2px solid white;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+  
+  body .container .frame2 .button .iconarrowright {
+    position: static;
+    width: 28px;
+    height: 28px;
+    left: 122px;
+    top: 12px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0px 1px;
+  }
+  
+  body .container .frame2 .button .iconarrowright .arrow {
+    position: absolute;
+    top: 19px;
+    width: 22px;
+    height: 17px;
+    background-image: url("../Project/imageInfo/arrow.svg");
+  }
+  
+  body .container .frame2 .button .buttontext {
+    position: static;
+    width: 78px;
+    height: 28px;
+    left: 32px;
+    top: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: white;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0px 12px;
+  }
+  
+  body .container .frame3 {
+    position: absolute;
+    width: 445px;
+    top: 50px;
+    left: 1000px;
+    color: white;
+  }
+  
+  body .container .frame3 .logo3 {
+    background-image: url("../Project/imageInfo/kisspng-computer-icons-clock-clip-art-portable-network-gra-liste-des-pices-prt-5b805bf7497681.7818045615351388073009 (1).png");
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  
+  body .container .frame3 .textframe3 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body .container .frame3 table .tabel1 tr td {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  
+  body .container .rectangle {
+    display: inline-block;
+    width: 445px;
+    height: 445px;
+    background-color: #46ACD6;
+  }
+  
+  body .container .rectangle2 {
+    display: inline-block;
+    width: 445px;
+    height: 445px;
+    background-color: #289BCA;
+  }
+  
+  body .container .rectangle3 {
+    display: inline-block;
+    width: 450px;
+    height: 445px;
+    background-color: #0087BE;
+  }
+  /*# sourceMappingURL=index.css.map */

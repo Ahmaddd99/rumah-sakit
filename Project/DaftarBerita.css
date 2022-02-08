@@ -1,0 +1,516 @@
+body {
+    background-color: #d8e1ff;
+    height: 2500px;
+  }
+  
+  body .textpuskesmas {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .back {
+    background-repeat: no-repeat;
+    background-image: url("../Project/imageDaftarBerita/kembali.png");
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 100px;
+    top: 50px;
+  }
+  
+  body .backtext {
+    position: absolute;
+    right: 35px;
+    top: 44px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .backtext a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  body .logopuskesmas {
+    background-image: url("../Project/imageDaftarBerita/logorumah.svg");
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  body .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    width: 50rem;
+    height: 140rem;
+    left: calc(50% - 50rem/2);
+    top: 12rem;
+    background: #FFFFFF;
+  }
+  
+  body .container .heading {
+    position: absolute;
+    width: 21.5rem;
+    height: 2.5rem;
+    left: calc(50% - 21.5rem/2);
+    top: 3.5rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #413368;
+  }
+  
+  body .container #releasenote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: static;
+    width: 45rem;
+    height: 36.75rem;
+    left: 2.5rem;
+    top: 12.5rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 8rem;
+  }
+  
+  body .container #releasenote .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0rem;
+    position: static;
+    width: 45rem;
+    height: 3.25rem;
+    left: 0rem;
+    top: 0rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 2rem 0rem;
+  }
+  
+  body .container #releasenote .title .date {
+    width: 9.6rem;
+    height: 1rem;
+    left: 0rem;
+    top: 0rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #4C516D;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container #releasenote .title .subheading {
+    position: static;
+    width: 45rem;
+    height: 1.75rem;
+    left: 0rem;
+    top: 1.5rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #413368;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container #releasenote .content {
+    position: static;
+    width: 45rem;
+    height: 31.5rem;
+    left: 0rem;
+    top: 5.25rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #131315;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container .secondreleasenote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 45rem;
+    height: 36.75rem;
+    left: 2.5rem;
+    top: 39rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+  }
+  
+  body .container .secondreleasenote .secondtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0rem;
+    position: static;
+    width: 45rem;
+    height: 3.25rem;
+    left: 0rem;
+    top: 0rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 2rem 0rem;
+  }
+  
+  body .container .secondreleasenote .secondtitle .seconddate {
+    position: static;
+    width: 9.6rem;
+    height: 1rem;
+    left: 0rem;
+    top: 0rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #4C516D;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container .secondreleasenote .secondtitle .secondsubheading {
+    position: static;
+    width: 45rem;
+    height: 1.75rem;
+    left: 0rem;
+    top: 1.5rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #413368;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container .secondreleasenote .secondcontent {
+    position: static;
+    width: 45rem;
+    height: 31.5rem;
+    left: 0rem;
+    top: 5.25rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #131315;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container #thirdreleasenote {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0rem;
+    position: absolute;
+    width: 45rem;
+    height: 23.25rem;
+    left: 2.5rem;
+    top: 86rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+  }
+  
+  body .container #thirdreleasenote .thirdtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0rem;
+    position: static;
+    width: 45rem;
+    height: 3.25rem;
+    left: 0rem;
+    top: 0rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 2rem 0rem;
+  }
+  
+  body .container #thirdreleasenote .thirdtitle .thirddate {
+    position: static;
+    width: 9.6rem;
+    height: 1rem;
+    left: 0rem;
+    top: 0rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #4C516D;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container #thirdreleasenote .thirdtitle .thirdsubheading {
+    position: static;
+    width: 45rem;
+    height: 1.75rem;
+    left: 0rem;
+    top: 1.5rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #413368;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container #thirdreleasenote .thirdcontent {
+    position: static;
+    width: 45rem;
+    height: 18rem;
+    left: 0rem;
+    top: 5.25rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #131315;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0.5rem 0rem;
+  }
+  
+  body .container .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0rem;
+    position: absolute;
+    width: 45rem;
+    height: 2.5rem;
+    left: 2.5rem;
+    top: 133rem;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0rem 0rem;
+  }
+  
+  body .container .footer .buttonrectangle {
+    position: static;
+    width: 120px;
+    height: 50px;
+    left: 0px;
+    top: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #3167F6;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    margin: 0px 0px;
+    border: none;
+    background-color: transparent;
+  }
+  /*# sourceMappingURL=index.css.map */

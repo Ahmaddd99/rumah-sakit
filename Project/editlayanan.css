@@ -1,0 +1,54 @@
+body {
+    background-color: #d8e1ff;
+    height: 1500px;
+  }
+  
+  body .textpuskesmas {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .back {
+    background-repeat: no-repeat;
+    background-image: url("../Project/imageTentangKami/kembali.png");
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 100px;
+    top: 50px;
+  }
+  
+  body .backtext {
+    position: absolute;
+    right: 35px;
+    top: 44px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: -0.04em;
+  }
+  
+  body .backtext a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  body .logopuskesmas {
+    background-image: url("../Project/imageTentangKami/logorumah.svg");
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  
+ 
